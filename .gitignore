@@ -130,3 +130,5 @@ dmypy.json
 
 
 main/data/instances/
+*.err 
+*.out
