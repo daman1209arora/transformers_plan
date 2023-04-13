@@ -235,65 +235,69 @@ def main():
     instances = pd.read_csv(args.instances)
     plans = {'trajectories': []}
     for i in tqdm(range(args.start_idx, args.end_idx), desc='instances'):
-        instance = instances['instances'][i]
-        candidates = [[instance] for _ in range(args.num_trajectories)]
-        for j in tqdm(range(args.max_trajectory_length), desc='traj'):
-            
-            prompts = []
-            for k in range(args.num_trajectories):
-                prev_state = candidates[k][-1]
+        try:
+            instance = instances['instances'][i]
+            candidates = [[instance] for _ in range(args.num_trajectories)]
+            for j in tqdm(range(args.max_trajectory_length), desc='traj'):
                 
-                goal = prev_state.split("GOAL:\n")[1].split("\n\nSTATE:")[0].strip()
-                if len(candidates[k]) == 1:
-                    state = prev_state.split("STATE:\n")[1].strip()
-                else:
-                    try:
-                        state = prev_state.split("NEXT STATE:\n")[1].split("\nGOAL")[0]
-                    except: 
-                        breakpoint()
-                prompt_text = f"GOAL:\n{goal}\n\nSTATE:\n{state}\n\nACTION:"
-                prompts.append(prompt_text)
-                
-            inputs = tokenizer(prompts, return_tensors="pt", padding=True)
-            output_sequences = model.generate(
-                input_ids=inputs['input_ids'].to(model.device),
-                max_length=args.length + inputs['input_ids'].shape[1],
-                attention_mask=inputs['attention_mask'].to(model.device),
-                temperature=args.temperature,
-                top_k=args.k,
-                top_p=args.p,
-                repetition_penalty=args.repetition_penalty,
-                do_sample=True,
-                num_return_sequences=1
-            )
-            # Remove the batch dimension when returning multiple sequences
-            if len(output_sequences.shape) > 2:
-                output_sequences.squeeze_()
-
-            generated_sequences = []
-
-            for generated_sequence_idx, generated_sequence in enumerate(output_sequences):
-                generated_sequence = generated_sequence.tolist()
-
-                # Decode text
-                text = tokenizer.decode(generated_sequence, clean_up_tokenization_spaces=True, skip_special_tokens=True)
-
-                # Remove all text after the stop token
-                text = text[: text.find(args.stop_token) if args.stop_token else None]
-
-                # Add the prompt at the beginning of the sequence. Remove the excess text that was used for pre-processing
-                total_sequence = (
-                    prompts[generated_sequence_idx] + text[len(tokenizer.decode(inputs['input_ids'][generated_sequence_idx], clean_up_tokenization_spaces=True, skip_special_tokens=True)) :]+ args.stop_token
+                prompts = []
+                for k in range(args.num_trajectories):
+                    prev_state = candidates[k][-1]
+                    
+                    goal = prev_state.split("GOAL:\n")[1].split("\n\nSTATE:")[0].strip()
+                    if len(candidates[k]) == 1:
+                        state = prev_state.split("STATE:\n")[1].strip()
+                    else:
+                        try:
+                            state = prev_state.split("NEXT STATE:\n")[1].split("\nGOAL")[0]
+                        except: 
+                            breakpoint()
+                    prompt_text = f"GOAL:\n{goal}\n\nSTATE:\n{state}\n\nACTION:"
+                    prompts.append(prompt_text)
+                    
+                inputs = tokenizer(prompts, return_tensors="pt", padding=True)
+                output_sequences = model.generate(
+                    input_ids=inputs['input_ids'].to(model.device),
+                    max_length=args.length + inputs['input_ids'].shape[1],
+                    attention_mask=inputs['attention_mask'].to(model.device),
+                    temperature=args.temperature,
+                    top_k=args.k,
+                    top_p=args.p,
+                    repetition_penalty=args.repetition_penalty,
+                    do_sample=True,
+                    num_return_sequences=1
                 )
+                # Remove the batch dimension when returning multiple sequences
+                if len(output_sequences.shape) > 2:
+                    output_sequences.squeeze_()
 
-                generated_sequences.append(total_sequence)
+                generated_sequences = []
+
+                for generated_sequence_idx, generated_sequence in enumerate(output_sequences):
+                    generated_sequence = generated_sequence.tolist()
+
+                    # Decode text
+                    text = tokenizer.decode(generated_sequence, clean_up_tokenization_spaces=True, skip_special_tokens=True)
+
+                    # Remove all text after the stop token
+                    text = text[: text.find(args.stop_token) if args.stop_token else None]
+
+                    # Add the prompt at the beginning of the sequence. Remove the excess text that was used for pre-processing
+                    total_sequence = (
+                        prompts[generated_sequence_idx] + text[len(tokenizer.decode(inputs['input_ids'][generated_sequence_idx], clean_up_tokenization_spaces=True, skip_special_tokens=True)) :]+ args.stop_token
+                    )
+
+                    generated_sequences.append(total_sequence)
+            
+                for k in range(args.num_trajectories):
+                    candidates[k].append(generated_sequences[k])
+            
+                pd.DataFrame({'trajectories': candidates}).to_csv(f'../results/{i}.csv', index=False)
         
-            for k in range(args.num_trajectories):
-                candidates[k].append(generated_sequences[k])
-        
-            pd.DataFrame({'trajectories': candidates}).to_csv(f'../results/{i}.csv', index=False)
-    
-        plans['trajectories'].append(candidates)
+            plans['trajectories'].append(candidates)
+        except:
+            print(f"Failed on {i}th instance")
+            continue
         
 
 if __name__ == "__main__":

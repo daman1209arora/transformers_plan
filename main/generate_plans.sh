@@ -14,5 +14,5 @@ python generate_plans.py \
     --stop_token "REACHED" \
     --repetition_penalty 1.0 \
     --p 0.99 \
-    --start_idx 250 \
-    --end_idx 500
+    --start_idx 175 \
+    --end_idx 250

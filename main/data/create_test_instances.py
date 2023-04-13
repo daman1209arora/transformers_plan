@@ -15,7 +15,7 @@ def generate_trajectory(domain, instance):
     
     parser = Parser()
     parser.parse_domain(os.path.join(GENERATOR_FOLDER, f'{domain}/domain.pddl'))
-    parser.parse_problem(f"instances/{domain}/{i}.pddl")
+    parser.parse_problem(f"test_instances/{domain}/{i}.pddl")
     
     states, actions = [], []
     states.append(parser.encode_atoms_as_pddl(parser.atoms, 'str'))
@@ -76,7 +76,7 @@ if __name__ == '__main__':
                 min_value, max_value = conf[conf_name][f'{mode}_min'], conf[conf_name][f'{mode}_max']
                 generator_args.append(str(random.randint(min_value, max_value)))
             
-            with open(f"instances/{domain}/{i}.pddl", 'w') as outfile:
+            with open(f"test_instances/{domain}/{i}.pddl", 'w') as outfile:
                 subprocess.run(generator_args, stdout=outfile, stderr=None)
                 
             states, actions = generate_trajectory(domain, i)
