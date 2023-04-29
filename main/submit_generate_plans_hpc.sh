@@ -3,7 +3,7 @@
 #PBS -P darpa.ml.cse
 #PBS -q high
 #PBS -lselect=1:ncpus=1:ngpus=1:centos=skylake
-#PBS -lwalltime=05:00:00
+#PBS -lwalltime=06:00:00
 
 echo "==============================="
 echo $PBS_JOBID

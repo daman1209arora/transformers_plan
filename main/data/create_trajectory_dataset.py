@@ -11,11 +11,11 @@ from lifted_pddl import Parser
 CONFIG_FOLDER = "../../configs/generator_config/"
 GENERATOR_FOLDER = "../../generators/"
 
-def generate_trajectory(domain, instance):
+def generate_trajectory(domain, instance, mode='train'):
     
     parser = Parser()
     parser.parse_domain(os.path.join(GENERATOR_FOLDER, f'{domain}/domain.pddl'))
-    parser.parse_problem(f"instances/{domain}/{i}.pddl")
+    parser.parse_problem(f"{mode}_instances/{domain}/{i}.pddl")
     
     states, actions = [], []
     states.append(parser.encode_atoms_as_pddl(parser.atoms, 'str'))
@@ -73,13 +73,15 @@ if __name__ == '__main__':
             generator_args = [f"./{generator}"]
             for conf in generator_configs:
                 conf_name = list(conf.keys())[0]
+                if "prefix" in conf[conf_name].keys():
+                    generator_args.append(conf[conf_name]["prefix"])
                 min_value, max_value = conf[conf_name][f'{mode}_min'], conf[conf_name][f'{mode}_max']
                 generator_args.append(str(random.randint(min_value, max_value)))
             
-            with open(f"instances/{domain}/{i}.pddl", 'w') as outfile:
+            with open(f"{args.mode}_instances/{domain}/{i}.pddl", 'w') as outfile:
                 subprocess.run(generator_args, stdout=outfile, stderr=None)
-                
-            states, actions = generate_trajectory(domain, i)
+            
+            states, actions = generate_trajectory(domain, i, args.mode)
             end = random.randint(0, len(states)-1)
             for k in range(end):
                 if k+1 == end:
@@ -88,6 +90,7 @@ if __name__ == '__main__':
                     transitions.append((states[k], actions[k], states[k+1], states[end], 0))
             i += 1
         except:
+            # breakpoint()
             pass
     
     inputs = {"transitions":[]}
@@ -96,13 +99,13 @@ if __name__ == '__main__':
         a = t[1]
         s_ = "\n".join(sorted(list(t[2])))
         g = "\n".join(sorted(list(t[3])))
-        r = "GOAL REACHED" if t[4] == 1 else "GOAL NOT REACHED"
-        combined = f"GOAL:\n{g}\n\nSTATE:\n{s}\n\nACTION:\n{a}\n\nNEXT STATE:\n{s_}\n{r}"
+        # r = "GOAL REACHED" if t[4] == 1 else "GOAL NOT REACHED"
+        combined = f"GOAL:\n{g}\n\nSTATE:\n{s}\n\nACTION:\n{a}\n\nNEXT STATE:\n{s_}\nEND"
         inputs['transitions'].append(combined)
     
     
-    breakpoint()
-    pd.DataFrame(inputs).to_csv(f'{domain}_{mode}.csv', index=False)
+    # breakpoint()
+    pd.DataFrame(inputs).to_csv(f'{domain}/{domain}_{mode}.csv', index=False)
         
         
     

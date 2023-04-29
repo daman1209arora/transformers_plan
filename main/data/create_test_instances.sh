@@ -1,3 +1,3 @@
 #/bin/bash
-
-python create_test_instances.py --domain blocksworld-4ops --num_instances 500 --trajectory_length 30 --mode test
+domain="grippers"
+python create_test_instances.py --domain $domain --num_instances 200 --trajectory_length 30 --mode test

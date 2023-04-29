@@ -138,46 +138,53 @@ def adjust_length_to_model(length, max_sequence_length):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--pretrained_model_path', default='gpt2')
+    parser.add_argument('--domain')
+    parser.add_argument('--action_model_path', default='gpt2')
     parser.add_argument('--plans_file')
     parser.add_argument('--num_trajectories_to_consider', type=int)
     parser.add_argument('--batch_size', type=int)
     args = parser.parse_args()
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
-    pretrained_model_path = args.pretrained_model_path
-    model_config = GPT2Config.from_pretrained(pretrained_model_path, num_labels=2) # Binary Classification
-    model = GPT2ForSequenceClassification.from_pretrained(pretrained_model_path, config=model_config)
+    action_model_path = args.action_model_path
+    action_model_config = GPT2Config.from_pretrained(action_model_path, num_labels=2) # Binary Classification
+    action_model = GPT2ForSequenceClassification.from_pretrained(action_model_path, config=action_model_config)
 
-    tokenizer = GPT2Tokenizer.from_pretrained(pretrained_model_path)
+    tokenizer = GPT2Tokenizer.from_pretrained(action_model_path)
     tokenizer.padding_side = "right"
     tokenizer.pad_token = tokenizer.eos_token
 
-    model.resize_token_embeddings(len(tokenizer))
-    model.config.pad_token_id = model.config.eos_token_id
-    model.to(device)
-    
-    for i in tqdm(range(0, 500), desc='instances'):
-        try:
-            df = pd.read_csv(f'../results/{i}.csv')
-            plans = df['trajectories']
-            verifier_preds = []
-            for j in tqdm(range(args.num_trajectories_to_consider), desc='plans'):
-                plan = eval(plans[j])
-                error_in_plan = False
-                all_logits = []
-                inputs = tokenizer(plan[1:], return_tensors="pt", padding=True)
-                for k in range(0, inputs['input_ids'].shape[0], args.batch_size):    
-                    logits = model(
-                        inputs['input_ids'][k:min(k+args.batch_size, inputs['input_ids'].shape[0])].to(model.device),
-                    )['logits']
-                    all_logits.extend(logits.argmax(dim=-1).tolist())
-                verdict_reached = False
-                verifier_preds.append(all_logits)
-            pd.DataFrame({'prediction': verifier_preds}).to_csv(f'../results/{i}_pred.csv', index=False)
-        except:
-            print(f"Failed on {i}th instance")    
-            continue
+    action_model.resize_token_embeddings(len(tokenizer))
+    action_model.config.pad_token_id = action_model.config.eos_token_id
+    action_model.to(device)
+
+    for i in tqdm(range(0, 200), desc='instances'):
+        df = pd.read_csv(f'../results/{args.domain}/{i}.csv')
+        plans = df['trajectories']
+        action_model_preds = []
+        goal_model_preds = []
+        for j in tqdm(range(args.num_trajectories_to_consider), desc='plans'):
+            plan = eval(plans[j])
+            error_in_plan = False
+            action_model_inputs = []
+            # breakpoint()
+            for transition in plan[1:]:
+                action_model_inputs.append(f'STATE:\n{transition.split("STATE:")[1].split("NEXT ")[0].strip()}')
+            
+            
+            all_logits = []
+            inputs = tokenizer(action_model_inputs, return_tensors="pt", padding=True)
+            for k in range(0, inputs['input_ids'].shape[0], args.batch_size):    
+                logits = action_model(
+                    inputs['input_ids'][k:min(k+args.batch_size, inputs['input_ids'].shape[0])].to(action_model.device),
+                )['logits']
+                all_logits.extend(logits.argmax(dim=-1).tolist())
+            verdict_reached = False
+            action_model_preds.append(all_logits)
+            
+        pd.DataFrame({
+            'action_model_preds': action_model_preds,
+        }).to_csv(f'../results/{args.domain}/{i}_pred.csv', index=False)
 
 if __name__ == '__main__':
     

@@ -1,0 +1,8 @@
+{
+    "success": 0,
+    "bad action": 197,
+    "goal not reached": 0,
+    "bad next state": 3,
+    "error in parsing pddl": 0,
+    "no_valid_found": 0
+}

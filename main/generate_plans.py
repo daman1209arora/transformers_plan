@@ -168,9 +168,8 @@ def main():
         required=True,
         help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(MODEL_CLASSES.keys()),
     )
-
+    parser.add_argument("--domain", type=str)
     parser.add_argument("--instances", type=str, default="")
-    parser.add_argument("--output_file", type=str, default="")
     parser.add_argument("--num_trajectories", type=int, default=10)
     parser.add_argument("--max_trajectory_length", type=int, default=40)
     parser.add_argument("--start_idx", type=int)
@@ -249,7 +248,7 @@ def main():
                         state = prev_state.split("STATE:\n")[1].strip()
                     else:
                         try:
-                            state = prev_state.split("NEXT STATE:\n")[1].split("\nGOAL")[0]
+                            state = prev_state.split("NEXT STATE:\n")[1].split("\nEND")[0]
                         except: 
                             breakpoint()
                     prompt_text = f"GOAL:\n{goal}\n\nSTATE:\n{state}\n\nACTION:"
@@ -292,7 +291,7 @@ def main():
                 for k in range(args.num_trajectories):
                     candidates[k].append(generated_sequences[k])
             
-                pd.DataFrame({'trajectories': candidates}).to_csv(f'../results/{i}.csv', index=False)
+                pd.DataFrame({'trajectories': candidates}).to_csv(f'../results/{args.domain}/{i}.csv', index=False)
         
             plans['trajectories'].append(candidates)
         except:

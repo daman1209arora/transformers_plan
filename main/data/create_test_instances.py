@@ -73,6 +73,8 @@ if __name__ == '__main__':
             generator_args = [f"./{generator}"]
             for conf in generator_configs:
                 conf_name = list(conf.keys())[0]
+                if "prefix" in conf[conf_name].keys():
+                    generator_args.append(conf[conf_name]["prefix"])
                 min_value, max_value = conf[conf_name][f'{mode}_min'], conf[conf_name][f'{mode}_max']
                 generator_args.append(str(random.randint(min_value, max_value)))
             
@@ -95,7 +97,7 @@ if __name__ == '__main__':
         inputs['instances'].append(combined)
     
     breakpoint()
-    pd.DataFrame(inputs).to_csv(f'{domain}_{mode}.csv', index=False)
+    pd.DataFrame(inputs).to_csv(f'{domain}/{domain}_{mode}.csv', index=False)
         
         
     
