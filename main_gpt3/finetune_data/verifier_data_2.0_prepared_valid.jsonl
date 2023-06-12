@@ -1,0 +1,779 @@
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(holding b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b1 b3)\n(on b2 b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b3)\n(on b4 b1)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b2 b5)\n(on b3 b4)\n(on b4 b1)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(stack b6 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(on b1 b2)\n(on b3 b1)\n(on-table b2)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(on b1 b2)\n(on b3 b1)\n(on b5 b4)\n(on b6 b5)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b5 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b3 b2)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b4 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b6)\n(holding b5)\n(on b3 b2)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b3 b2)\n(on b5 b1)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(on b2 b1)\n(on b3 b5)\n(on b4 b6)\n(on b5 b2)\n(on b6 b3)\n(on-table b1)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b2 b1)\n(on b4 b6)\n(on b5 b2)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b1)\n(on b3 b5)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b6)\n(clear b8)\n(holding b5)\n(on b1 b3)\n(on b3 b7)\n(on b4 b1)\n(on-table b2)\n(on-table b6)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(stack b8 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b4)\n(on b1 b2)\n(on b2 b7)\n(on b5 b3)\n(on b7 b5)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b7)\n(holding b6)\n(on b1 b3)\n(on b3 b2)\n(on b5 b4)\n(on b7 b5)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b1 b2)\n(on b4 b6)\n(on b5 b4)\n(on b6 b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b1)\n(on b3 b6)\n(on b4 b5)\n(on b6 b2)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(putdown b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b2 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(on b2 b4)\n(on b3 b1)\n(on b5 b3)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(stack b2 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b2 b4)\n(on b3 b1)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b4 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b6)\n(on b1 b3)\n(on b4 b7)\n(on b5 b1)\n(on b6 b8)\n(on b7 b2)\n(on b8 b4)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b1 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b1 b3)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b2 b5)\n(on b3 b1)\n(on b4 b6)\n(on b5 b4)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(unstack b2 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b5)\n(on b2 b3)\n(on b3 b1)\n(on b4 b6)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b4)\n(on b1 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(on b1 b3)\n(on b3 b4)\n(on b5 b7)\n(on b6 b5)\n(on b7 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b1 b5)\n(on b3 b1)\n(on b4 b3)\n(on b5 b6)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(putdown b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b4)\n(on b1 b5)\n(on b3 b1)\n(on b5 b6)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b2 b5)\n(on b3 b4)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b1 b6)\n(on b3 b2)\n(on b5 b1)\n(on b6 b3)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b1 b3)\n(on b2 b5)\n(on b3 b8)\n(on b4 b1)\n(on b8 b2)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b6 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(on b1 b2)\n(on b2 b3)\n(on-table b3)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(on b1 b3)\n(on b3 b4)\n(on b5 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b3)\n(on b1 b5)\n(on b5 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b5)\n(on b5 b2)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b1)\n(on b4 b5)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(on b2 b3)\n(on b4 b6)\n(on b5 b2)\n(on b6 b5)\n(on b7 b4)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(stack b4 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(on b1 b6)\n(on b2 b5)\n(on b3 b1)\n(on b4 b3)\n(on b5 b4)\n(on-table b6)\n\nACTION:\n(unstack b2 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b5)\n(holding b2)\n(on b1 b6)\n(on b3 b1)\n(on b4 b3)\n(on b5 b4)\n(on-table b6)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(holding b2)\n(on b1 b6)\n(on b3 b1)\n(on b4 b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b2 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(holding b6)\n(on b2 b5)\n(on b4 b2)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b4 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b4 b5)\n(on b5 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b5)\n(on b1 b4)\n(on b4 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b2 b3)\n(on b3 b4)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b6)\n(clear b8)\n(holding b7)\n(on b1 b3)\n(on b3 b4)\n(on b4 b2)\n(on b5 b1)\n(on b8 b5)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(stack b7 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b3)\n(on b1 b5)\n(on b4 b2)\n(on b5 b8)\n(on b7 b6)\n(on b8 b7)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b8)\n(on b3 b2)\n(on b4 b1)\n(on b7 b6)\n(on b8 b7)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b6)\n(holding b1)\n(on b2 b3)\n(on b4 b2)\n(on b5 b4)\n(on b6 b5)\n(on-table b3)\n\nACTION:\n(putdown b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b3 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b6)\n(on b2 b5)\n(on b4 b3)\n(on b6 b2)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(clear b7)\n(clear b8)\n(on b3 b4)\n(on b4 b5)\n(on b5 b2)\n(on b8 b3)\n(on-table b1)\n(on-table b2)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(on b3 b8)\n(on b4 b5)\n(on b5 b2)\n(on b6 b7)\n(on b7 b1)\n(on b8 b6)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(on b1 b4)\n(on b2 b3)\n(on b5 b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b1 b4)\n(on b3 b5)\n(on b5 b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(holding b5)\n(on b1 b3)\n(on b3 b6)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b5)\n(holding b1)\n(on b3 b6)\n(on b5 b4)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b1 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b5)\n(on b3 b4)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b5 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b5)\n(holding b4)\n(on b1 b2)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b4 b5)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b6 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b4)\n(on b3 b6)\n(on b4 b5)\n(on b5 b3)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b8)\n(on b1 b6)\n(on b2 b7)\n(on b4 b2)\n(on b7 b5)\n(on b8 b3)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b8)\n(holding b4)\n(on b1 b6)\n(on b2 b7)\n(on b7 b5)\n(on b8 b3)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b7)\n(on b1 b6)\n(on b2 b8)\n(on b7 b5)\n(on b8 b3)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b7)\n(on b1 b6)\n(on b2 b8)\n(on b8 b3)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b5)\n(clear b7)\n(on b1 b6)\n(on b2 b8)\n(on b7 b2)\n(on b8 b3)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b8)\n(on b1 b2)\n(on b4 b3)\n(on b5 b4)\n(on b6 b1)\n(on b7 b6)\n(on b8 b7)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b8)\n(holding b5)\n(on b1 b2)\n(on b4 b3)\n(on b6 b1)\n(on b7 b6)\n(on b8 b7)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b7)\n(clear b8)\n(on b1 b2)\n(on b4 b3)\n(on b6 b1)\n(on b7 b6)\n(on b8 b4)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b6 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b2)\n(on b1 b7)\n(on b4 b3)\n(on b5 b8)\n(on b6 b5)\n(on b8 b4)\n(on-table b3)\n(on-table b7)\n\nACTION:\n(stack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b7)\n(holding b6)\n(on b1 b3)\n(on b3 b5)\n(on b4 b1)\n(on b7 b4)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b6 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b6)\n(clear b7)\n(on b1 b3)\n(on b3 b5)\n(on b4 b1)\n(on b6 b2)\n(on b7 b4)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b7 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(on b1 b5)\n(on b2 b1)\n(on b5 b3)\n(on b6 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b6)\n(holding b4)\n(on b1 b5)\n(on b2 b1)\n(on b5 b3)\n(on b6 b2)\n(on-table b3)\n\nACTION:\n(putdown b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b6)\n(holding b4)\n(on b2 b3)\n(on b3 b5)\n(on b6 b1)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(stack b5 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b7)\n(on b2 b6)\n(on b3 b8)\n(on b4 b1)\n(on b5 b4)\n(on b8 b2)\n(on-table b1)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b7)\n(holding b5)\n(on b2 b6)\n(on b3 b8)\n(on b4 b1)\n(on b7 b3)\n(on b8 b2)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(stack b5 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b5)\n(clear b8)\n(holding b4)\n(on b2 b1)\n(on b3 b6)\n(on b5 b7)\n(on b6 b2)\n(on b7 b3)\n(on-table b1)\n(on-table b8)\n\nACTION:\n(stack b4 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b5)\n(clear b6)\n(on b1 b7)\n(on b5 b2)\n(on b7 b4)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(on b1 b2)\n(on b4 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b8)\n(holding b7)\n(on b1 b5)\n(on b2 b6)\n(on b3 b1)\n(on b4 b2)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(unstack b5 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b7)\n(holding b8)\n(on b1 b5)\n(on b2 b6)\n(on b3 b1)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b7)\n(clear b8)\n(on b1 b5)\n(on b2 b6)\n(on b8 b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b4 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b7)\n(clear b8)\n(holding b5)\n(on b1 b4)\n(on b2 b6)\n(on b8 b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b5 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b7)\n(holding b8)\n(on b1 b4)\n(on b2 b6)\n(on b7 b1)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b8 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b1)\n(on b4 b2)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b8 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b4 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b6)\n(holding b7)\n(on b1 b5)\n(on b3 b2)\n(on b4 b3)\n(on b5 b8)\n(on b6 b1)\n(on-table b2)\n(on-table b8)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b8)\n(on b3 b6)\n(on b4 b7)\n(on b6 b5)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(unstack b4 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b2 b3)\n(on b3 b7)\n(on b6 b2)\n(on b7 b1)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(on b2 b1)\n(on b3 b5)\n(on b4 b3)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b2 b1)\n(on b3 b2)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b3 b5)\n(on b5 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(holding b3)\n(on b1 b2)\n(on b5 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b4 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b1 b2)\n(on b3 b1)\n(on b5 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b1 b2)\n(on b3 b4)\n(on b5 b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b1)\n(on b3 b7)\n(on b4 b2)\n(on b6 b8)\n(on b7 b6)\n(on-table b2)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(on b1 b8)\n(on b2 b1)\n(on b3 b7)\n(on b4 b6)\n(on b5 b3)\n(on b7 b4)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b2 b3)\n(on b3 b1)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b3 b1)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(holding b2)\n(on b1 b3)\n(on b3 b4)\n(on-table b4)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(holding b5)\n(on b1 b2)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b5 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(holding b4)\n(on b1 b2)\n(on b5 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(clear b8)\n(on b1 b3)\n(on b4 b7)\n(on b5 b4)\n(on b6 b1)\n(on b8 b5)\n(on-table b2)\n(on-table b3)\n(on-table b7)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(holding b3)\n(on b1 b6)\n(on b2 b8)\n(on b4 b7)\n(on b5 b4)\n(on b6 b2)\n(on b8 b5)\n(on-table b7)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b2)\n(on b1 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b6 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b2 b3)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(on b1 b2)\n(on b4 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b1 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b4 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b1)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b3 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b5)\n(clear b6)\n(on b4 b2)\n(on b5 b4)\n(on b6 b7)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b7)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b1)\n(on b4 b2)\n(on b5 b4)\n(on b6 b7)\n(on-table b2)\n(on-table b3)\n(on-table b7)\n\nACTION:\n(unstack b2 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b7)\n(on b1 b5)\n(on b3 b6)\n(on b4 b2)\n(on b5 b4)\n(on b6 b1)\n(on-table b2)\n(on-table b7)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(on b2 b4)\n(on b3 b5)\n(on b4 b1)\n(on b5 b2)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(on b2 b4)\n(on b3 b6)\n(on b4 b1)\n(on b5 b3)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(stack b7 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b3 b6)\n(on b4 b1)\n(on b5 b2)\n(on-table b1)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b3 b6)\n(on b4 b5)\n(on b5 b2)\n(on-table b1)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(putdown b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b7)\n(on b2 b6)\n(on b3 b5)\n(on b5 b2)\n(on b7 b4)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(putdown b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(on b1 b4)\n(on b2 b3)\n(on b3 b5)\n(on b4 b2)\n(on-table b5)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b7)\n(holding b6)\n(on b1 b5)\n(on b3 b1)\n(on b5 b2)\n(on b7 b3)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b5)\n(on b1 b4)\n(on b3 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(holding b3)\n(on b1 b4)\n(on b5 b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b1 b4)\n(on b5 b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b5 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(holding b1)\n(on b4 b2)\n(on b5 b4)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(on b1 b3)\n(on b4 b2)\n(on b5 b4)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b5)\n(holding b4)\n(on b1 b3)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b4 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b1 b3)\n(on b4 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b6)\n(on b3 b5)\n(on b4 b1)\n(on b5 b7)\n(on b6 b4)\n(on b7 b8)\n(on-table b1)\n(on-table b2)\n(on-table b8)\n\nACTION:\n(unstack b6 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b2 b6)\n(on b4 b1)\n(on b5 b7)\n(on b6 b4)\n(on b7 b8)\n(on-table b1)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(unstack b7 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b7)\n(clear b8)\n(on b2 b6)\n(on b4 b1)\n(on b5 b3)\n(on b6 b4)\n(on b7 b2)\n(on-table b1)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(pickup b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(holding b3)\n(on b1 b6)\n(on b4 b5)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b8 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b5)\n(on b1 b6)\n(on b3 b2)\n(on b4 b3)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b5)\n(holding b1)\n(on b5 b4)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b1 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b6)\n(holding b1)\n(on b2 b5)\n(on b3 b4)\n(on b4 b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b1 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b6)\n(on b2 b5)\n(on b4 b2)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b3)\n(on b1 b6)\n(on b2 b5)\n(on b4 b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(on b1 b4)\n(on b4 b2)\n(on b5 b6)\n(on b6 b3)\n(on b7 b8)\n(on b8 b5)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b7 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b5)\n(clear b7)\n(holding b8)\n(on b1 b4)\n(on b4 b2)\n(on b5 b6)\n(on b6 b3)\n(on b7 b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(clear b8)\n(on b1 b4)\n(on b4 b2)\n(on b5 b6)\n(on b6 b3)\n(on b7 b5)\n(on-table b2)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b5)\n(clear b7)\n(clear b8)\n(on b4 b2)\n(on b5 b6)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(clear b7)\n(clear b8)\n(on b4 b2)\n(on b5 b1)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(holding b2)\n(on b3 b7)\n(on b4 b6)\n(on b5 b8)\n(on b7 b4)\n(on b8 b1)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(stack b2 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b7)\n(on b2 b5)\n(on b4 b6)\n(on b5 b8)\n(on b7 b2)\n(on b8 b1)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b3)\n(on b1 b5)\n(on b4 b1)\n(on b5 b6)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b4)\n(on b1 b5)\n(on b2 b3)\n(on b5 b6)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b1)\n(on b2 b3)\n(on b5 b6)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b2 b3)\n(on b4 b1)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b7)\n(holding b5)\n(on b1 b6)\n(on b2 b4)\n(on b3 b1)\n(on b4 b3)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b5 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b5)\n(on b1 b4)\n(on b4 b6)\n(on b6 b2)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(on b2 b4)\n(on b3 b2)\n(on b5 b3)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(unstack b5 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b2 b4)\n(on b3 b2)\n(on b5 b1)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b2)\n(on b3 b5)\n(on b5 b1)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b4)\n(on b3 b5)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b6)\n(holding b3)\n(on b1 b5)\n(on b2 b8)\n(on b6 b7)\n(on b7 b4)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(clear b7)\n(on b1 b3)\n(on b4 b2)\n(on b6 b4)\n(on b7 b6)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b7 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(clear b6)\n(holding b7)\n(on b1 b3)\n(on b4 b2)\n(on b6 b4)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b7 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b7)\n(holding b6)\n(on b1 b3)\n(on b4 b2)\n(on b7 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b6 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b6)\n(on b1 b3)\n(on b4 b2)\n(on b6 b7)\n(on b7 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b6)\n(on b1 b4)\n(on b3 b2)\n(on b6 b7)\n(on b7 b5)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(clear b6)\n(holding b7)\n(on b1 b4)\n(on b3 b2)\n(on b6 b3)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b3)\n(on b3 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b3 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(holding b2)\n(on b1 b3)\n(on-table b3)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(on b1 b4)\n(on b2 b3)\n(on b3 b1)\n(on b4 b5)\n(on-table b5)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b1 b4)\n(on b3 b1)\n(on b4 b5)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b2)\n(on b4 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b1 b3)\n(on b2 b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b8 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b2)\n(on b1 b3)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b3)\n(on b2 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b5)\n(on b1 b3)\n(on b2 b7)\n(on b3 b2)\n(on b4 b6)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b7 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b5)\n(holding b3)\n(on b2 b4)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b3 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b2 b4)\n(on b3 b5)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b2 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(holding b2)\n(on b3 b5)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b1)\n(on b3 b5)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b3)\n(on b2 b1)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b2)\n(on b4 b6)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b4 b6)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b1)\n(on b3 b5)\n(on b5 b6)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(holding b2)\n(on b3 b5)\n(on b5 b6)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b2 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(on b2 b3)\n(on b3 b4)\n(on b4 b5)\n(on b5 b1)\n(on-table b1)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b3 b4)\n(on b4 b5)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b3)\n(on b4 b6)\n(on b5 b2)\n(on b6 b5)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b2)\n(on b3 b5)\n(on b5 b6)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b7 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b1)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(on b1 b6)\n(on b2 b1)\n(on b3 b2)\n(on b4 b3)\n(on b5 b4)\n(on-table b6)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(holding b5)\n(on b1 b6)\n(on b2 b1)\n(on b3 b2)\n(on b4 b3)\n(on-table b6)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(holding b6)\n(on b2 b1)\n(on b4 b5)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b6)\n(holding b5)\n(on b2 b1)\n(on b4 b2)\n(on b6 b3)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b2 b3)\n(on b6 b1)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b6)\n(holding b2)\n(on b6 b1)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b2 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b5)\n(holding b6)\n(on b2 b4)\n(on b3 b2)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(clear b6)\n(on b2 b4)\n(on b3 b2)\n(on b6 b3)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b6)\n(on b2 b8)\n(on b3 b1)\n(on b4 b7)\n(on b6 b4)\n(on b7 b2)\n(on-table b1)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(stack b7 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b7)\n(on b2 b8)\n(on b3 b5)\n(on b4 b6)\n(on b5 b1)\n(on b6 b3)\n(on b7 b2)\n(on-table b1)\n(on-table b8)\n\nACTION:\n(unstack b7 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b1 b5)\n(on b2 b4)\n(on b3 b7)\n(on b4 b6)\n(on b6 b1)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b2 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b1 b5)\n(on b2 b6)\n(on b3 b7)\n(on b6 b1)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b1)\n(on b3 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b5 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b3 b4)\n(on b4 b1)\n(on b5 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(on b3 b5)\n(on b4 b1)\n(on b5 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b3 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b1)\n(on b3 b5)\n(on b5 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b1 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b1 b4)\n(on b3 b5)\n(on b5 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b5)\n(on b1 b4)\n(on b3 b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(clear b7)\n(on b1 b5)\n(on b2 b3)\n(on b5 b4)\n(on b6 b8)\n(on b7 b2)\n(on-table b3)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(unstack b6 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b3 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b7 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b2 b6)\n(on b3 b5)\n(on b5 b4)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b6)\n(holding b2)\n(on b3 b5)\n(on b5 b4)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b6)\n(holding b3)\n(on b5 b4)\n(on b6 b5)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b2 b6)\n(on b5 b4)\n(on b6 b5)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b1 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(on b1 b3)\n(on b2 b1)\n(on b5 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b2 b4)\n(on b3 b2)\n(on b4 b5)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b1 b6)\n(on b2 b7)\n(on b3 b5)\n(on b5 b2)\n(on b6 b4)\n(on b7 b8)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(stack b6 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b1 b6)\n(on b2 b7)\n(on b3 b1)\n(on b6 b4)\n(on b7 b8)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b7)\n(holding b3)\n(on b1 b6)\n(on b2 b5)\n(on b6 b4)\n(on b7 b8)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b2 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b1 b6)\n(on b2 b5)\n(on b3 b7)\n(on b6 b4)\n(on b7 b8)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b6)\n(on b1 b4)\n(on b2 b5)\n(on b3 b7)\n(on b6 b2)\n(on b7 b8)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b6 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b2 b3)\n(on b3 b5)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b4)\n(on b2 b3)\n(on b3 b5)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b5)\n(clear b7)\n(holding b6)\n(on b3 b2)\n(on b4 b3)\n(on b5 b1)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b6 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b6)\n(clear b7)\n(on b3 b2)\n(on b4 b3)\n(on b5 b1)\n(on b6 b5)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b7 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b7)\n(on b3 b2)\n(on b4 b3)\n(on b5 b1)\n(on b6 b5)\n(on b7 b6)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(on b2 b7)\n(on b3 b2)\n(on b4 b6)\n(on b6 b5)\n(on b7 b8)\n(on b8 b1)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b3)\n(on b2 b7)\n(on b4 b6)\n(on b6 b5)\n(on b7 b8)\n(on b8 b1)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b7)\n(on b4 b6)\n(on b6 b5)\n(on b7 b8)\n(on b8 b1)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b4 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b6)\n(holding b4)\n(on b2 b7)\n(on b6 b5)\n(on b7 b8)\n(on b8 b1)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b2 b7)\n(on b4 b2)\n(on b6 b5)\n(on b7 b8)\n(on b8 b1)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(pickup b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(on b2 b7)\n(on b3 b4)\n(on b4 b2)\n(on b6 b5)\n(on b7 b8)\n(on b8 b1)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b7)\n(on b1 b5)\n(on b2 b1)\n(on b3 b2)\n(on b5 b6)\n(on b7 b8)\n(on b8 b4)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b1 b5)\n(on b3 b7)\n(on b5 b6)\n(on b7 b8)\n(on b8 b4)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b3 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b7)\n(holding b3)\n(on b1 b5)\n(on b5 b6)\n(on b7 b8)\n(on b8 b4)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(clear b7)\n(on b2 b1)\n(on b3 b4)\n(on b5 b3)\n(on b7 b5)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(clear b7)\n(on b1 b3)\n(on b2 b5)\n(on b6 b1)\n(on b7 b8)\n(on b8 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b5)\n(clear b6)\n(clear b7)\n(holding b2)\n(on b1 b3)\n(on b6 b1)\n(on b7 b8)\n(on b8 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b2 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b1 b5)\n(on b4 b1)\n(on b6 b7)\n(on b7 b2)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b6 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b6)\n(on b1 b5)\n(on b4 b7)\n(on b6 b3)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b1 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b6)\n(on b1 b2)\n(on b2 b8)\n(on b3 b5)\n(on b4 b1)\n(on b5 b4)\n(on b6 b7)\n(on b7 b3)\n(on-table b8)\n\nACTION:\n(unstack b6 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(clear b7)\n(on b1 b2)\n(on b2 b8)\n(on b3 b5)\n(on b4 b1)\n(on b5 b4)\n(on-table b6)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(pickup b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b5)\n(clear b6)\n(holding b3)\n(on b1 b2)\n(on b2 b8)\n(on b4 b1)\n(on b5 b4)\n(on b6 b7)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(stack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b1 b2)\n(on b2 b8)\n(on b3 b6)\n(on b4 b1)\n(on b6 b7)\n(on-table b5)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b2)\n(on b2 b8)\n(on b3 b6)\n(on b4 b5)\n(on b6 b7)\n(on-table b5)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(holding b1)\n(on b2 b8)\n(on b3 b6)\n(on b4 b5)\n(on b6 b7)\n(on-table b5)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(putdown b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b1 b3)\n(on b2 b8)\n(on b3 b6)\n(on b4 b5)\n(on b6 b7)\n(on-table b5)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b2)\n(on b1 b8)\n(on b3 b7)\n(on b4 b5)\n(on b6 b3)\n(on b8 b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(holding b5)\n(on b2 b1)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b5 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(on b2 b1)\n(on b4 b3)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b3 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(holding b4)\n(on b1 b2)\n(on b5 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b8)\n(holding b7)\n(on b1 b6)\n(on b2 b3)\n(on b3 b4)\n(on b4 b5)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(pickup b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b2)\n(on b1 b3)\n(on b4 b8)\n(on b5 b4)\n(on b6 b7)\n(on b7 b5)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b2 b3)\n(on b4 b1)\n(on b5 b2)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b3)\n(on b1 b5)\n(on b2 b7)\n(on b4 b6)\n(on b5 b4)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b8 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(on b1 b3)\n(on b2 b7)\n(on b3 b2)\n(on b4 b6)\n(on b5 b4)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b5)\n(on b1 b3)\n(on b2 b7)\n(on b3 b2)\n(on b4 b6)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b1)\n(on b2 b7)\n(on b3 b2)\n(on b4 b6)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b7)\n(on b3 b5)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b6)\n(clear b7)\n(holding b3)\n(on b2 b5)\n(on b4 b2)\n(on b6 b1)\n(on-table b1)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(clear b7)\n(holding b2)\n(on b3 b6)\n(on b6 b1)\n(on b7 b3)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b2 b3)\n(on b3 b1)\n(on b5 b6)\n(on b6 b2)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(unstack b5 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b6)\n(on b2 b3)\n(on b3 b1)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b6 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b6)\n(holding b3)\n(on b2 b4)\n(on b4 b1)\n(on b6 b7)\n(on-table b1)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b5)\n(on b2 b4)\n(on b3 b6)\n(on b4 b1)\n(on b6 b7)\n(on-table b1)\n(on-table b7)\n\nACTION:\n(stack b5 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(clear b8)\n(on b1 b4)\n(on b5 b6)\n(on b6 b3)\n(on b7 b5)\n(on b8 b2)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b7)\n(holding b6)\n(on b2 b3)\n(on b3 b5)\n(on b7 b8)\n(on b8 b1)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b8 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b6)\n(holding b4)\n(on b2 b3)\n(on b3 b5)\n(on b6 b7)\n(on b7 b8)\n(on b8 b1)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(stack b7 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b5)\n(on b2 b3)\n(on b3 b7)\n(on b4 b2)\n(on b6 b4)\n(on-table b1)\n(on-table b7)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b4)\n(on b4 b3)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b8)\n(holding b5)\n(on b1 b2)\n(on b2 b6)\n(on b4 b7)\n(on b8 b4)\n(on-table b3)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b5 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(on b1 b2)\n(on b2 b4)\n(on b3 b1)\n(on-table b4)\n\nACTION:\n(stack b7 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b6)\n(on b1 b7)\n(on b3 b8)\n(on b4 b2)\n(on b7 b5)\n(on b8 b4)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b6 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b5)\n(on b2 b3)\n(on b4 b2)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(stack b5 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b2 b3)\n(on b4 b2)\n(on b5 b1)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(unstack b1 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b3 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b3)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b6)\n(clear b7)\n(holding b5)\n(on b2 b1)\n(on b4 b2)\n(on b6 b3)\n(on b7 b4)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b7)\n(holding b4)\n(on b2 b1)\n(on b5 b6)\n(on b6 b3)\n(on b7 b5)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(stack b5 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b2 b1)\n(on b4 b7)\n(on b5 b6)\n(on b6 b3)\n(on b7 b5)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b2)\n(on b4 b7)\n(on b5 b6)\n(on b6 b3)\n(on b7 b5)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(on b1 b2)\n(on b4 b7)\n(on b5 b6)\n(on b6 b3)\n(on b7 b5)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b7)\n(on b1 b2)\n(on b4 b1)\n(on b5 b6)\n(on b6 b3)\n(on b7 b5)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b8)\n(holding b4)\n(on b2 b6)\n(on b3 b7)\n(on b5 b3)\n(on b7 b1)\n(on b8 b5)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b3)\n(on b2 b5)\n(on b5 b1)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b8)\n(on b1 b6)\n(on b2 b5)\n(on b4 b1)\n(on b7 b2)\n(on b8 b7)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b2)\n(on b4 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b5 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b1 b3)\n(on b4 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(putdown b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b5)\n(holding b4)\n(on b1 b3)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b2 b1)\n(on b3 b7)\n(on b4 b6)\n(on b5 b3)\n(on b7 b2)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(unstack b5 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b5)\n(clear b7)\n(holding b3)\n(on b2 b1)\n(on b4 b6)\n(on b5 b4)\n(on b7 b2)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b7)\n(on b2 b1)\n(on b4 b6)\n(on b5 b4)\n(on b7 b2)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(stack b6 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b6)\n(on b1 b8)\n(on b3 b7)\n(on b5 b2)\n(on b6 b3)\n(on b8 b5)\n(on-table b2)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(unstack b6 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(clear b7)\n(on b1 b8)\n(on b3 b4)\n(on b5 b2)\n(on b6 b1)\n(on b8 b5)\n(on-table b2)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(pickup b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b6)\n(clear b8)\n(holding b1)\n(on b4 b7)\n(on b5 b2)\n(on b6 b4)\n(on b8 b5)\n(on-table b2)\n(on-table b3)\n(on-table b7)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b6)\n(on b2 b3)\n(on b3 b7)\n(on b6 b2)\n(on b7 b5)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b7 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b6)\n(on b1 b4)\n(on b2 b3)\n(on b3 b7)\n(on b7 b5)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b5 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b6)\n(on b1 b4)\n(on b2 b3)\n(on b3 b7)\n(on b7 b5)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b6)\n(on b1 b3)\n(on b2 b1)\n(on b4 b5)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(putdown b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b5)\n(on b1 b3)\n(on b2 b6)\n(on b4 b2)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b1)\n(on b2 b6)\n(on b4 b2)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b2 b6)\n(on b4 b2)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b6)\n(holding b2)\n(on b4 b5)\n(on b5 b3)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(pickup b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b2 b1)\n(on b3 b2)\n(on b6 b7)\n(on b7 b3)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b2 b1)\n(on b3 b2)\n(on b4 b6)\n(on b6 b7)\n(on b7 b3)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b3 b5)\n(on b4 b1)\n(on b5 b7)\n(on b7 b8)\n(on b8 b2)\n(on-table b1)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b1)\n(on b2 b3)\n(on b4 b5)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b1 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b1 b2)\n(on b3 b4)\n(on b4 b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(holding b3)\n(on b1 b2)\n(on b4 b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b6 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b2 b3)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b1 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b3 b4)\n(on b4 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b3 b6)\n(on b4 b5)\n(on b5 b3)\n(on b6 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b2 b4)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b2 b3)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(on b1 b5)\n(on b5 b3)\n(on b6 b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b6)\n(on b1 b4)\n(on b2 b1)\n(on b4 b7)\n(on b5 b2)\n(on-table b3)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b5 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b3)\n(on b1 b4)\n(on b2 b5)\n(on b4 b7)\n(on b5 b6)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b1 b4)\n(on b2 b5)\n(on b3 b2)\n(on b4 b7)\n(on b5 b6)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(holding b3)\n(on b2 b5)\n(on b4 b7)\n(on b5 b6)\n(on-table b1)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b2 b5)\n(on b3 b4)\n(on b4 b7)\n(on b5 b6)\n(on-table b1)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b1)\n(on b2 b5)\n(on b3 b4)\n(on b4 b7)\n(on b5 b6)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(holding b2)\n(on b1 b3)\n(on b3 b4)\n(on b4 b7)\n(on b5 b6)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b6)\n(holding b3)\n(on b4 b1)\n(on b5 b4)\n(on-table b1)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(stack b3 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b6)\n(on b2 b5)\n(on b4 b1)\n(on b5 b4)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b2)\n(on b4 b1)\n(on b5 b4)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b6)\n(on b3 b5)\n(on b4 b7)\n(on b5 b2)\n(on b6 b3)\n(on b7 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(putdown b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b6)\n(clear b7)\n(holding b1)\n(on b2 b8)\n(on b6 b2)\n(on b8 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b6)\n(clear b7)\n(on b1 b5)\n(on b2 b8)\n(on b6 b2)\n(on b8 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b2 b3)\n(on b3 b1)\n(on b4 b2)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(holding b3)\n(on b2 b7)\n(on b4 b1)\n(on b5 b2)\n(on b7 b8)\n(on b8 b6)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(stack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b2 b7)\n(on b3 b4)\n(on b4 b1)\n(on b5 b2)\n(on b7 b8)\n(on b8 b6)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(unstack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b5)\n(on b2 b7)\n(on b3 b4)\n(on b4 b1)\n(on b7 b8)\n(on b8 b6)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b7)\n(holding b2)\n(on b3 b4)\n(on b4 b1)\n(on b7 b8)\n(on b8 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b7)\n(on b3 b4)\n(on b4 b1)\n(on b7 b8)\n(on b8 b6)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b7)\n(on b3 b5)\n(on b4 b1)\n(on b7 b8)\n(on b8 b6)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b8)\n(holding b7)\n(on b3 b5)\n(on b4 b1)\n(on b8 b6)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b7 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b7)\n(clear b8)\n(on b3 b5)\n(on b4 b1)\n(on b7 b4)\n(on b8 b6)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b6)\n(clear b7)\n(clear b8)\n(on b3 b5)\n(on b4 b1)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(putdown b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b7)\n(clear b8)\n(on b3 b5)\n(on b4 b1)\n(on b7 b6)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(stack b6 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b7)\n(clear b8)\n(holding b4)\n(on b3 b5)\n(on b7 b6)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b6)\n(holding b4)\n(on b3 b1)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b3)\n(on b4 b1)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b6 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b4 b1)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b4 b1)\n(on b5 b4)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(on b1 b4)\n(on b2 b3)\n(on b3 b1)\n(on b5 b2)\n(on-table b4)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b8)\n(holding b4)\n(on b1 b6)\n(on b2 b5)\n(on b3 b7)\n(on b7 b2)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b7)\n(clear b8)\n(on b1 b6)\n(on b2 b5)\n(on b3 b2)\n(on b4 b1)\n(on b8 b4)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b8 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b7)\n(holding b8)\n(on b1 b6)\n(on b2 b5)\n(on b3 b2)\n(on b4 b1)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b2 b5)\n(on b3 b2)\n(on b4 b7)\n(on b7 b1)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(on b1 b5)\n(on b2 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b4 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b1)\n(on b2 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b7 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b1 b6)\n(on b2 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(on b1 b2)\n(on b2 b8)\n(on b4 b1)\n(on b5 b7)\n(on b6 b5)\n(on b7 b4)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(pickup b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(holding b7)\n(on b1 b5)\n(on b3 b2)\n(on b4 b6)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b7 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b6)\n(clear b7)\n(holding b4)\n(on b3 b5)\n(on b7 b2)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b4 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b3 b5)\n(on b4 b3)\n(on b7 b2)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b7 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(clear b7)\n(holding b4)\n(on b3 b5)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b7)\n(holding b2)\n(on b3 b5)\n(on b4 b6)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(holding b5)\n(on b6 b4)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b5 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b5)\n(holding b3)\n(on b5 b6)\n(on b6 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b2 b5)\n(on b3 b1)\n(on b5 b6)\n(on b6 b4)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(unstack b3 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(on b1 b4)\n(on b3 b7)\n(on b4 b3)\n(on b6 b1)\n(on b7 b5)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b5)\n(clear b6)\n(holding b3)\n(on b1 b2)\n(on b2 b7)\n(on b5 b1)\n(on b6 b4)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b6)\n(holding b3)\n(on b1 b2)\n(on b2 b7)\n(on b5 b1)\n(on b6 b5)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(on b1 b5)\n(on b2 b1)\n(on b3 b2)\n(on b4 b3)\n(on-table b5)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b3)\n(on b1 b5)\n(on b2 b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b2)\n(on b1 b5)\n(on b3 b4)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b2 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(holding b1)\n(on b2 b3)\n(on b3 b4)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b4)\n(on b2 b1)\n(on b3 b6)\n(on b5 b8)\n(on b6 b7)\n(on b7 b5)\n(on-table b1)\n(on-table b8)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b5)\n(clear b6)\n(clear b8)\n(holding b7)\n(on b2 b1)\n(on b5 b3)\n(on b6 b4)\n(on b8 b2)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b5)\n(on b3 b4)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b6)\n(clear b7)\n(holding b3)\n(on b2 b8)\n(on b5 b4)\n(on b6 b2)\n(on b7 b1)\n(on b8 b5)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(stack b3 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(on b2 b8)\n(on b3 b6)\n(on b5 b4)\n(on b6 b2)\n(on b7 b3)\n(on b8 b5)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(stack b4 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b8)\n(holding b7)\n(on b1 b5)\n(on b3 b1)\n(on b5 b6)\n(on b6 b4)\n(on-table b2)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(stack b7 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(on b1 b4)\n(on b2 b1)\n(on b4 b5)\n(on b5 b3)\n(on-table b3)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(on b1 b3)\n(on b2 b4)\n(on b3 b2)\n(on b4 b5)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b1 b6)\n(on b3 b1)\n(on b4 b5)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b1 b6)\n(on b3 b1)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b5)\n(holding b3)\n(on b1 b6)\n(on b5 b4)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(holding b3)\n(on b2 b4)\n(on b4 b1)\n(on-table b1)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b4 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(clear b8)\n(on b1 b2)\n(on b2 b5)\n(on b3 b1)\n(on b5 b7)\n(on b7 b4)\n(on-table b4)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b8)\n(on b3 b6)\n(on b4 b7)\n(on b5 b3)\n(on b6 b1)\n(on b7 b5)\n(on b8 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b4 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b7)\n(clear b8)\n(on b3 b6)\n(on b5 b3)\n(on b6 b1)\n(on b7 b4)\n(on b8 b2)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(on b2 b5)\n(on b3 b2)\n(on b5 b4)\n(on b6 b3)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b1 b6)\n(on b2 b7)\n(on b5 b1)\n(on b6 b3)\n(on b7 b5)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b5 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b2 b8)\n(on b3 b5)\n(on b4 b2)\n(on b6 b1)\n(on b8 b3)\n(on-table b1)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(on b1 b4)\n(on b2 b8)\n(on b3 b5)\n(on b4 b2)\n(on b6 b7)\n(on b8 b3)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(stack b5 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b6)\n(clear b8)\n(on b2 b4)\n(on b3 b7)\n(on b8 b1)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b3 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b6)\n(clear b7)\n(clear b8)\n(holding b4)\n(on b2 b3)\n(on b3 b5)\n(on b8 b1)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b7)\n(holding b2)\n(on b1 b3)\n(on b4 b5)\n(on b5 b1)\n(on b6 b4)\n(on b7 b6)\n(on-table b3)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b7)\n(on b1 b3)\n(on b4 b5)\n(on b5 b1)\n(on b6 b4)\n(on b7 b6)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b7 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b6)\n(on b1 b3)\n(on b4 b5)\n(on b5 b1)\n(on b6 b7)\n(on b7 b2)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b4)\n(on b6 b2)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b5 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b7)\n(on b1 b4)\n(on b2 b3)\n(on b3 b8)\n(on b4 b5)\n(on b5 b2)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b5)\n(holding b3)\n(on b5 b2)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b7 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(holding b5)\n(on b2 b4)\n(on b4 b6)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(pickup b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b5)\n(on b4 b6)\n(on b5 b1)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(unstack b4 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b5)\n(clear b6)\n(on b3 b4)\n(on b5 b2)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b5 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b3 b4)\n(on b5 b6)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b7)\n(on b5 b6)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b5 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b7)\n(holding b3)\n(on b5 b1)\n(on b7 b6)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b7)\n(on b3 b4)\n(on b5 b1)\n(on b7 b6)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(holding b1)\n(on b3 b2)\n(on b4 b3)\n(on-table b2)\n\nACTION:\n(putdown b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b3 b2)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b6)\n(holding b8)\n(on b2 b7)\n(on b4 b1)\n(on b5 b4)\n(on b6 b3)\n(on-table b1)\n(on-table b3)\n(on-table b7)\n\nACTION:\n(putdown b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b6)\n(clear b8)\n(holding b5)\n(on b2 b7)\n(on b4 b1)\n(on b6 b2)\n(on-table b1)\n(on-table b3)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(stack b5 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b5)\n(clear b7)\n(holding b8)\n(on b2 b6)\n(on b4 b2)\n(on b5 b4)\n(on b6 b3)\n(on b7 b1)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(putdown b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b7)\n(holding b4)\n(on b2 b6)\n(on b5 b1)\n(on b6 b3)\n(on b7 b8)\n(on-table b1)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(on b2 b3)\n(on b3 b8)\n(on b4 b7)\n(on b5 b6)\n(on b6 b4)\n(on b7 b1)\n(on-table b1)\n(on-table b8)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b2)\n(on b3 b8)\n(on b4 b7)\n(on b6 b4)\n(on b7 b1)\n(on-table b1)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(holding b1)\n(on b2 b3)\n(on b3 b4)\n(on-table b4)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(on b1 b5)\n(on b2 b1)\n(on b3 b6)\n(on b4 b3)\n(on b6 b2)\n(on-table b5)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b6)\n(on b3 b1)\n(on b6 b5)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b2 b6)\n(on b3 b4)\n(on b4 b2)\n(on b6 b5)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(on b1 b3)\n(on b3 b2)\n(on b4 b1)\n(on-table b2)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(on b1 b3)\n(on b3 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b1 b4)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b3 b5)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b3 b1)\n(on b4 b2)\n(on b6 b5)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(holding b1)\n(on b3 b2)\n(on b4 b3)\n(on-table b2)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b6)\n(on b1 b5)\n(on b2 b3)\n(on b4 b2)\n(on b6 b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b6)\n(clear b7)\n(clear b8)\n(on b5 b1)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(pickup b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(clear b7)\n(holding b5)\n(on b3 b2)\n(on b6 b3)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b6)\n(clear b7)\n(on b3 b2)\n(on b5 b1)\n(on b6 b3)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b6 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b7)\n(holding b6)\n(on b3 b2)\n(on b5 b1)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b6 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b6)\n(on b3 b2)\n(on b5 b1)\n(on b6 b7)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b6)\n(clear b7)\n(holding b5)\n(on b6 b2)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b3 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b7)\n(on b5 b6)\n(on b6 b2)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(clear b7)\n(on b1 b6)\n(on b3 b1)\n(on b5 b3)\n(on b6 b4)\n(on-table b2)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(unstack b5 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b7)\n(on b1 b2)\n(on b3 b6)\n(on b4 b3)\n(on b5 b1)\n(on b6 b5)\n(on-table b2)\n(on-table b7)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b6)\n(holding b7)\n(on b1 b2)\n(on b5 b1)\n(on b6 b5)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b5 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(on b1 b2)\n(on b2 b3)\n(on b4 b1)\n(on-table b3)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b2)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b1 b2)\n(on b3 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(holding b5)\n(on b1 b6)\n(on b4 b1)\n(on-table b2)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(holding b3)\n(on b1 b6)\n(on b4 b1)\n(on b5 b4)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(stack b2 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b5)\n(on b1 b6)\n(on b4 b3)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b6)\n(holding b1)\n(on b4 b3)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b2 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(on b2 b5)\n(on b4 b2)\n(on b5 b1)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(stack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(holding b1)\n(on b2 b5)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b1 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b2)\n(on b2 b5)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b7 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b7)\n(holding b6)\n(on b1 b4)\n(on b5 b3)\n(on b7 b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b6 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b5)\n(clear b6)\n(clear b7)\n(holding b2)\n(on b1 b4)\n(on b5 b3)\n(on b7 b1)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b5 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(clear b7)\n(on b1 b4)\n(on b2 b5)\n(on b5 b3)\n(on b7 b1)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(holding b4)\n(on b1 b3)\n(on b5 b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b1 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b2 b4)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b7 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b2)\n(on b3 b1)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(unstack b7 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b1 b5)\n(on b2 b3)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b1 b5)\n(on b2 b1)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b6 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(on b1 b3)\n(on b3 b4)\n(on b4 b2)\n(on-table b2)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b2 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(holding b4)\n(on b6 b7)\n(on b7 b5)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b1 b6)\n(on b4 b2)\n(on b6 b7)\n(on b7 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b1 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b3 b6)\n(on b4 b5)\n(on b6 b1)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b7)\n(on b2 b4)\n(on b4 b1)\n(on b5 b2)\n(on b7 b6)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(unstack b5 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b6)\n(clear b7)\n(on b2 b4)\n(on b4 b1)\n(on b5 b2)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b5)\n(clear b6)\n(holding b3)\n(on b2 b4)\n(on b4 b1)\n(on b5 b2)\n(on b6 b7)\n(on-table b1)\n(on-table b7)\n\nACTION:\n(stack b8 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(clear b6)\n(holding b2)\n(on b1 b4)\n(on b4 b3)\n(on b5 b7)\n(on b6 b8)\n(on-table b3)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(stack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b5)\n(on b1 b4)\n(on b2 b6)\n(on b4 b3)\n(on b5 b7)\n(on b6 b8)\n(on-table b3)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(unstack b5 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(clear b7)\n(on b1 b4)\n(on b2 b6)\n(on b4 b3)\n(on b5 b2)\n(on b6 b8)\n(on-table b3)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(unstack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b7)\n(holding b4)\n(on b1 b5)\n(on b2 b6)\n(on b5 b2)\n(on b6 b8)\n(on-table b3)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(stack b7 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b3)\n(on b1 b5)\n(on b2 b6)\n(on b4 b7)\n(on b5 b2)\n(on b6 b8)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(holding b5)\n(on b3 b7)\n(on b6 b4)\n(on b7 b6)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b2 b5)\n(on b3 b1)\n(on b4 b6)\n(on b5 b3)\n(on b6 b7)\n(on-table b1)\n(on-table b7)\n\nACTION:\n(stack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(holding b2)\n(on b3 b1)\n(on b4 b6)\n(on b5 b3)\n(on b6 b7)\n(on-table b1)\n(on-table b7)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b6)\n(holding b4)\n(on b3 b1)\n(on b5 b3)\n(on b6 b7)\n(on-table b1)\n(on-table b2)\n(on-table b7)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b2 b1)\n(on b3 b4)\n(on b4 b6)\n(on b5 b2)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(putdown b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(holding b3)\n(on b2 b1)\n(on b4 b6)\n(on b5 b2)\n(on-table b1)\n(on-table b6)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b7)\n(on b1 b6)\n(on b2 b3)\n(on b4 b8)\n(on b6 b2)\n(on b7 b1)\n(on-table b3)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b7 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b5)\n(holding b7)\n(on b1 b6)\n(on b2 b3)\n(on b4 b8)\n(on b6 b2)\n(on-table b3)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b7 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b5)\n(clear b8)\n(holding b7)\n(on b1 b6)\n(on b2 b3)\n(on b6 b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b7)\n(clear b8)\n(on b1 b6)\n(on b2 b3)\n(on b6 b2)\n(on b7 b1)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b4 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b8)\n(on b1 b7)\n(on b3 b1)\n(on b5 b6)\n(on b8 b5)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b7)\n(on b2 b4)\n(on b3 b8)\n(on b5 b6)\n(on b8 b5)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b1)\n(on b3 b5)\n(on b4 b3)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b1 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b4)\n(on b1 b2)\n(on b3 b5)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(on b1 b2)\n(on b3 b5)\n(on b4 b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(on b1 b6)\n(on b3 b4)\n(on b4 b5)\n(on b5 b2)\n(on b6 b3)\n(on-table b2)\n(on-table b7)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(on b1 b7)\n(on b3 b4)\n(on b4 b5)\n(on b5 b2)\n(on b6 b3)\n(on-table b2)\n(on-table b7)\n\nACTION:\n(unstack b6 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b6)\n(clear b7)\n(holding b1)\n(on b3 b4)\n(on b4 b5)\n(on b5 b2)\n(on b7 b3)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b4)\n(on b2 b1)\n(on b3 b6)\n(on b6 b5)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(stack b4 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b2)\n(on b3 b6)\n(on b4 b3)\n(on b6 b5)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(stack b8 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(clear b6)\n(clear b7)\n(on b1 b8)\n(on b3 b1)\n(on b6 b4)\n(on b7 b3)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b5 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b6)\n(clear b7)\n(on b1 b8)\n(on b3 b1)\n(on b6 b4)\n(on b7 b2)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(pickup b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(clear b6)\n(clear b7)\n(holding b3)\n(on b1 b8)\n(on b6 b4)\n(on b7 b2)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b7)\n(holding b2)\n(on b1 b8)\n(on b3 b5)\n(on b4 b1)\n(on b6 b3)\n(on b7 b6)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b7)\n(holding b3)\n(on b1 b2)\n(on b2 b4)\n(on b6 b5)\n(on b7 b6)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b1)\n(on b2 b4)\n(on b3 b7)\n(on b6 b5)\n(on b7 b6)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b7)\n(on b3 b1)\n(on b6 b5)\n(on b7 b6)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b3 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b7)\n(on b6 b5)\n(on b7 b6)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b2 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b1)\n(on b5 b2)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b7 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(on b2 b3)\n(on b3 b5)\n(on b4 b1)\n(on b5 b4)\n(on-table b1)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(holding b2)\n(on b3 b5)\n(on b4 b1)\n(on b5 b4)\n(on-table b1)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b3 b5)\n(on b4 b1)\n(on b5 b4)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b4 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b6)\n(on b1 b7)\n(on b2 b5)\n(on b4 b2)\n(on b6 b8)\n(on b7 b3)\n(on-table b3)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b7 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b6)\n(clear b8)\n(holding b4)\n(on b1 b7)\n(on b2 b5)\n(on b6 b1)\n(on b7 b3)\n(on-table b3)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(stack b4 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b8)\n(on b1 b7)\n(on b2 b5)\n(on b4 b6)\n(on b6 b1)\n(on b7 b3)\n(on-table b3)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b6)\n(clear b8)\n(holding b4)\n(on b1 b7)\n(on b2 b5)\n(on b6 b1)\n(on b7 b3)\n(on b8 b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b2 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(clear b6)\n(clear b8)\n(on b1 b7)\n(on b5 b3)\n(on b7 b2)\n(on b8 b4)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b7 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(clear b8)\n(on b1 b7)\n(on b4 b5)\n(on b5 b3)\n(on b7 b2)\n(on b8 b4)\n(on-table b2)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(unstack b1 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(clear b6)\n(clear b7)\n(holding b3)\n(on b4 b2)\n(on b7 b1)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b7 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b7)\n(on b3 b6)\n(on b4 b2)\n(on b7 b1)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b7 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b6)\n(holding b1)\n(on b2 b5)\n(on b3 b8)\n(on b5 b4)\n(on b6 b2)\n(on b8 b7)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(unstack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b1 b6)\n(on b2 b5)\n(on b3 b8)\n(on b5 b4)\n(on b6 b2)\n(on b8 b7)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b6)\n(clear b7)\n(on b2 b4)\n(on b3 b5)\n(on b4 b8)\n(on b7 b2)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(unstack b7 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b8)\n(on b3 b4)\n(on b4 b6)\n(on b6 b7)\n(on b7 b5)\n(on b8 b3)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b8)\n(holding b3)\n(on b1 b2)\n(on b4 b6)\n(on b6 b7)\n(on b7 b5)\n(on b8 b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b3 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b8)\n(on b1 b2)\n(on b3 b1)\n(on b5 b6)\n(on b6 b7)\n(on b7 b4)\n(on b8 b3)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b7 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b2 b3)\n(on b3 b1)\n(on b4 b2)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b6 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(holding b7)\n(on b1 b3)\n(on b3 b6)\n(on b4 b1)\n(on b6 b2)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b7)\n(on b1 b3)\n(on b3 b6)\n(on b4 b1)\n(on b6 b2)\n(on b7 b5)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b7)\n(on b3 b6)\n(on b5 b1)\n(on b6 b2)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b6 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b3 b6)\n(on b4 b7)\n(on b5 b1)\n(on b6 b2)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(pickup b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b5)\n(on b3 b6)\n(on b4 b7)\n(on b6 b2)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b4 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b6)\n(holding b1)\n(on b2 b3)\n(on b4 b2)\n(on b6 b5)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b8 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b4)\n(on b1 b6)\n(on b2 b3)\n(on b6 b5)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b2)\n(on b1 b6)\n(on b4 b1)\n(on b6 b5)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b1 b6)\n(on b3 b4)\n(on b4 b2)\n(on b6 b5)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b6)\n(holding b1)\n(on b5 b4)\n(on b6 b3)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b6)\n(holding b5)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b5 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b6)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b5 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b6)\n(holding b5)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b5 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b1)\n(on b4 b7)\n(on b5 b6)\n(on b7 b5)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(stack b2 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b7)\n(holding b4)\n(on b2 b1)\n(on b5 b6)\n(on b7 b5)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(unstack b6 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b5)\n(holding b7)\n(on b1 b2)\n(on b2 b4)\n(on b5 b6)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b7 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b7)\n(on b1 b2)\n(on b2 b4)\n(on b3 b5)\n(on b5 b6)\n(on b7 b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b6 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(clear b7)\n(on b1 b4)\n(on b3 b8)\n(on b6 b1)\n(on b7 b3)\n(on b8 b5)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b5)\n(clear b7)\n(on b2 b4)\n(on b4 b3)\n(on b5 b6)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b7)\n(holding b1)\n(on b2 b4)\n(on b4 b3)\n(on b5 b6)\n(on-table b3)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(clear b6)\n(on b1 b7)\n(on b2 b4)\n(on b4 b3)\n(on b5 b1)\n(on-table b3)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b6)\n(on b1 b7)\n(on b4 b3)\n(on b5 b1)\n(on-table b2)\n(on-table b3)\n(on-table b7)\n\nACTION:\n(putdown b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b1 b5)\n(on b2 b8)\n(on b3 b7)\n(on b6 b4)\n(on b7 b2)\n(on b8 b6)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b4 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b7)\n(on b1 b5)\n(on b2 b8)\n(on b6 b4)\n(on b7 b3)\n(on b8 b6)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b7)\n(on b1 b2)\n(on b2 b8)\n(on b3 b5)\n(on b6 b4)\n(on b7 b1)\n(on b8 b6)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b7)\n(on b1 b2)\n(on b2 b8)\n(on b3 b5)\n(on b6 b4)\n(on b8 b6)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b5 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b7)\n(holding b1)\n(on b2 b8)\n(on b3 b5)\n(on b6 b4)\n(on b8 b6)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(stack b1 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b5)\n(holding b4)\n(on b5 b2)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(stack b4 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(holding b5)\n(on b4 b3)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b5)\n(on b4 b3)\n(on b5 b4)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b6 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(on b2 b1)\n(on b4 b3)\n(on b5 b4)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(unstack b5 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b3 b2)\n(on b4 b1)\n(on b6 b5)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b6 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b3 b2)\n(on b4 b1)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(clear b7)\n(on b1 b3)\n(on b4 b5)\n(on b6 b4)\n(on b7 b2)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b1 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b3 b1)\n(on b5 b2)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b6)\n(holding b5)\n(on b3 b1)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b3 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(clear b6)\n(on b3 b1)\n(on b5 b4)\n(on b6 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b6 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b3)\n(on b3 b5)\n(on b5 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b1 b4)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(on b1 b7)\n(on b3 b4)\n(on b4 b5)\n(on b5 b6)\n(on b6 b1)\n(on b7 b2)\n(on-table b2)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b7)\n(on b2 b6)\n(on b3 b4)\n(on b5 b2)\n(on b7 b5)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b7)\n(on b1 b4)\n(on b2 b6)\n(on b5 b2)\n(on b7 b5)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b7)\n(holding b3)\n(on b1 b4)\n(on b2 b6)\n(on b5 b2)\n(on b7 b5)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b3 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(holding b4)\n(on b2 b7)\n(on b3 b6)\n(on b5 b3)\n(on b6 b2)\n(on-table b1)\n(on-table b7)\n\nACTION:\n(unstack b6 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b5)\n(clear b6)\n(holding b3)\n(on b2 b7)\n(on b4 b1)\n(on b5 b4)\n(on b6 b2)\n(on-table b1)\n(on-table b7)\n\nACTION:\n(pickup b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b1 b5)\n(on b2 b3)\n(on b4 b1)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b3)\n(on b1 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(pickup b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b5)\n(holding b7)\n(on b1 b6)\n(on b5 b3)\n(on b6 b4)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b7)\n(on b1 b6)\n(on b5 b1)\n(on b6 b4)\n(on b7 b2)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b4)\n(on b1 b2)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b1 b5)\n(on b3 b1)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b7 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(holding b4)\n(on b1 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b2 b6)\n(on b3 b2)\n(on b4 b5)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(on b2 b6)\n(on b4 b5)\n(on b5 b3)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(unstack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(holding b4)\n(on b1 b2)\n(on b2 b6)\n(on b5 b3)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(stack b5 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(holding b2)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b6)\n(holding b3)\n(on b1 b5)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b1 b5)\n(on b3 b2)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(on b1 b4)\n(on b2 b1)\n(on b3 b5)\n(on b6 b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b6 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b2 b5)\n(on b3 b1)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(holding b5)\n(on b2 b4)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b5)\n(clear b7)\n(holding b4)\n(on b1 b8)\n(on b2 b3)\n(on b3 b6)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(stack b4 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b7)\n(on b1 b8)\n(on b2 b3)\n(on b3 b6)\n(on b4 b5)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(unstack b1 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b7)\n(clear b8)\n(holding b1)\n(on b2 b3)\n(on b3 b6)\n(on b4 b5)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(on b1 b3)\n(on b2 b1)\n(on b3 b7)\n(on b5 b6)\n(on b6 b4)\n(on b7 b8)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b6)\n(clear b8)\n(on b1 b7)\n(on b2 b4)\n(on b5 b3)\n(on b6 b5)\n(on b7 b2)\n(on b8 b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b8)\n(on b1 b7)\n(on b2 b4)\n(on b5 b3)\n(on b6 b5)\n(on b7 b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b5 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(clear b8)\n(on b1 b7)\n(on b2 b4)\n(on b5 b3)\n(on b6 b5)\n(on b7 b2)\n(on-table b3)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(pickup b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b7)\n(clear b8)\n(holding b1)\n(on b2 b4)\n(on b5 b3)\n(on b6 b5)\n(on b7 b2)\n(on b8 b6)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b1 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(on b1 b8)\n(on b2 b4)\n(on b5 b3)\n(on b6 b5)\n(on b7 b2)\n(on b8 b6)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b7 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b6)\n(on b1 b3)\n(on b5 b4)\n(on b6 b5)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(on b5 b4)\n(on b6 b5)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(on b4 b3)\n(on b5 b7)\n(on b6 b1)\n(on b7 b6)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b2)\n(on b4 b5)\n(on b5 b7)\n(on b6 b1)\n(on b7 b6)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b2 b3)\n(on b4 b5)\n(on b5 b7)\n(on b6 b1)\n(on b7 b6)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(on b2 b3)\n(on b5 b7)\n(on b6 b1)\n(on b7 b6)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b5 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b8)\n(on b2 b5)\n(on b4 b2)\n(on b5 b3)\n(on b6 b7)\n(on b7 b1)\n(on b8 b6)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(on b1 b6)\n(on b2 b5)\n(on b4 b2)\n(on b5 b3)\n(on b6 b8)\n(on b7 b4)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(unstack b7 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b6)\n(holding b5)\n(on b2 b3)\n(on b3 b1)\n(on b4 b2)\n(on b6 b4)\n(on-table b1)\n\nACTION:\n(stack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(on b1 b2)\n(on b2 b3)\n(on b5 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(clear b7)\n(holding b3)\n(on b1 b6)\n(on b5 b1)\n(on b7 b2)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b5 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b7)\n(on b1 b6)\n(on b5 b1)\n(on b7 b2)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b7)\n(on b1 b6)\n(on b2 b1)\n(on b7 b3)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b5)\n(clear b7)\n(holding b2)\n(on b1 b6)\n(on b7 b3)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(holding b7)\n(on b1 b6)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b7 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b7)\n(on b1 b6)\n(on b5 b3)\n(on b7 b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b3 b4)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b3)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(on b1 b4)\n(on b2 b3)\n(on b5 b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b1 b7)\n(on b3 b5)\n(on b4 b6)\n(on b5 b4)\n(on b7 b8)\n(on-table b2)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(stack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b2 b4)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b4)\n(on b2 b3)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b2)\n(on b4 b1)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(stack b2 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(on b2 b5)\n(on b3 b2)\n(on b4 b1)\n(on b6 b7)\n(on b7 b4)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(unstack b1 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b2)\n(on b4 b1)\n(on b6 b7)\n(on b7 b4)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(stack b2 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(on b2 b5)\n(on b3 b1)\n(on b6 b3)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b6 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b6)\n(on b2 b5)\n(on b3 b2)\n(on b6 b4)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b6 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b6)\n(on b2 b5)\n(on b3 b2)\n(on b6 b3)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(on b1 b4)\n(on b2 b5)\n(on b3 b2)\n(on b6 b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b5)\n(holding b8)\n(on b1 b6)\n(on b2 b7)\n(on b3 b4)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b8 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b8)\n(on b1 b6)\n(on b2 b7)\n(on b3 b4)\n(on b8 b5)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b1 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b6)\n(clear b8)\n(holding b1)\n(on b2 b7)\n(on b3 b4)\n(on b8 b5)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(holding b6)\n(on b2 b7)\n(on b3 b8)\n(on b8 b5)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b6 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b4)\n(on b2 b1)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(stack b4 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b6)\n(clear b7)\n(holding b5)\n(on b3 b2)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b5 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(clear b5)\n(on b3 b2)\n(on b5 b6)\n(on b6 b7)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b5)\n(holding b4)\n(on b3 b2)\n(on b5 b6)\n(on b6 b7)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b4 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b3 b2)\n(on b4 b1)\n(on b5 b6)\n(on b6 b7)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b6 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b7)\n(on b3 b2)\n(on b4 b1)\n(on b5 b4)\n(on-table b1)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(putdown b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b6)\n(clear b7)\n(clear b8)\n(on b1 b5)\n(on b2 b4)\n(on b4 b1)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n(on-table b8)\n\nACTION:\n(stack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b6)\n(holding b2)\n(on b1 b5)\n(on b3 b7)\n(on b4 b8)\n(on b6 b3)\n(on b7 b1)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(on b1 b5)\n(on b3 b7)\n(on b4 b8)\n(on b6 b3)\n(on b7 b1)\n(on-table b2)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b4 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b1 b2)\n(on b3 b8)\n(on b5 b1)\n(on b6 b7)\n(on b7 b3)\n(on-table b2)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b5)\n(clear b6)\n(holding b4)\n(on b1 b2)\n(on b3 b8)\n(on b5 b1)\n(on b6 b7)\n(on b7 b3)\n(on-table b2)\n(on-table b8)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b6)\n(holding b5)\n(on b3 b8)\n(on b6 b7)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(stack b5 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b3 b8)\n(on b5 b1)\n(on b6 b7)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b4)\n(on b2 b3)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(on b1 b3)\n(on b3 b2)\n(on-table b2)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b3 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(putdown b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(holding b1)\n(on b3 b4)\n(on b5 b2)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b8 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b5)\n(on b1 b3)\n(on b3 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b8)\n(holding b4)\n(on b2 b7)\n(on b5 b1)\n(on b7 b6)\n(on-table b1)\n(on-table b3)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b1)\n(on b2 b3)\n(on b3 b5)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b2)\n(on b1 b4)\n(on b3 b5)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(on b1 b8)\n(on b3 b7)\n(on b7 b5)\n(on b8 b4)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b3 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b6)\n(clear b7)\n(holding b3)\n(on b1 b8)\n(on b7 b5)\n(on b8 b4)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b7)\n(on b1 b8)\n(on b2 b1)\n(on b8 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(clear b7)\n(on b1 b8)\n(on b2 b1)\n(on b6 b5)\n(on b7 b3)\n(on b8 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b2 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(clear b7)\n(holding b2)\n(on b1 b8)\n(on b6 b5)\n(on b7 b3)\n(on b8 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b3 b2)\n(on b5 b6)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b1 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b3 b4)\n(on b5 b6)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b2 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b5)\n(on b1 b3)\n(on b2 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b4)\n(on b1 b2)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b1 b3)\n(on b3 b8)\n(on b6 b5)\n(on b7 b1)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(holding b2)\n(on b3 b7)\n(on b5 b6)\n(on b6 b1)\n(on b7 b4)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b8)\n(on b2 b4)\n(on b4 b3)\n(on b6 b7)\n(on b7 b5)\n(on b8 b6)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(unstack b2 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b3 b5)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(on b3 b5)\n(on b4 b3)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b5)\n(on b3 b6)\n(on b5 b3)\n(on b6 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b4 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(on b1 b4)\n(on b2 b5)\n(on b3 b7)\n(on b5 b3)\n(on b6 b1)\n(on b7 b6)\n(on-table b4)\n\nACTION:\n(unstack b2 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b5)\n(on b1 b4)\n(on b3 b7)\n(on b6 b1)\n(on b7 b6)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b1 b4)\n(on b3 b7)\n(on b6 b1)\n(on b7 b6)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b1 b4)\n(on b2 b5)\n(on b3 b7)\n(on b6 b1)\n(on b7 b6)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b7)\n(on b1 b4)\n(on b2 b5)\n(on b3 b2)\n(on b6 b1)\n(on b7 b6)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b7 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(clear b7)\n(on b1 b4)\n(on b2 b5)\n(on b3 b2)\n(on b6 b1)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b6 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b6)\n(holding b2)\n(on b3 b1)\n(on b4 b5)\n(on b6 b4)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b2 b6)\n(on b3 b2)\n(on b4 b5)\n(on b6 b4)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b5)\n(on b3 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b6 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b5)\n(holding b2)\n(on b3 b4)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b4 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b2 b1)\n(on b3 b4)\n(on b5 b2)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(unstack b3 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b2 b1)\n(on b3 b2)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b6)\n(on b2 b1)\n(on b3 b2)\n(on b5 b4)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(clear b6)\n(holding b3)\n(on b2 b1)\n(on b5 b4)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b3 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(on b3 b5)\n(on b5 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b4)\n(on b1 b3)\n(on b2 b5)\n(on b3 b2)\n(on b5 b7)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b4 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b3)\n(on b1 b4)\n(on b2 b5)\n(on b4 b6)\n(on b5 b7)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(on b1 b4)\n(on b2 b5)\n(on b3 b1)\n(on b4 b6)\n(on b5 b7)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(unstack b8 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(holding b1)\n(on b2 b7)\n(on b5 b6)\n(on b6 b2)\n(on b7 b3)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b5)\n(on b1 b6)\n(on b2 b3)\n(on b3 b7)\n(on b7 b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(on b1 b3)\n(on b4 b2)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b3)\n(on b2 b1)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b5)\n(holding b4)\n(on b2 b6)\n(on b5 b1)\n(on b6 b7)\n(on b7 b3)\n(on-table b1)\n(on-table b3)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b7)\n(holding b8)\n(on b3 b2)\n(on b5 b3)\n(on b6 b5)\n(on b7 b6)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b7)\n(clear b8)\n(holding b1)\n(on b3 b2)\n(on b5 b3)\n(on b6 b5)\n(on b7 b6)\n(on b8 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(stack b1 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b8)\n(on b1 b7)\n(on b3 b2)\n(on b5 b3)\n(on b6 b5)\n(on b7 b6)\n(on b8 b4)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b5)\n(on b1 b3)\n(on b2 b4)\n(on b4 b6)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(unstack b5 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b7)\n(holding b4)\n(on b1 b6)\n(on b3 b1)\n(on-table b2)\n(on-table b5)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b7 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b3)\n(holding b1)\n(on b2 b6)\n(on b3 b5)\n(on b6 b4)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(on b1 b3)\n(on b2 b6)\n(on b3 b5)\n(on b6 b4)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b2 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b6)\n(holding b2)\n(on b1 b3)\n(on b3 b5)\n(on b6 b4)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(on b3 b5)\n(on b6 b4)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b2)\n(on b1 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b1 b4)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b6)\n(on b1 b3)\n(on b2 b1)\n(on b5 b2)\n(on b6 b5)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b4 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b6)\n(on b1 b3)\n(on b2 b1)\n(on b5 b2)\n(on b6 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b5 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(on b1 b4)\n(on b2 b5)\n(on b3 b2)\n(on b4 b6)\n(on b5 b7)\n(on b6 b8)\n(on b8 b3)\n(on-table b7)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b6)\n(on b1 b8)\n(on b2 b5)\n(on b3 b2)\n(on b5 b7)\n(on b8 b3)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(stack b6 b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b7)\n(on b3 b8)\n(on b4 b2)\n(on b5 b6)\n(on b6 b1)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b8)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b6)\n(clear b7)\n(on b3 b8)\n(on b6 b1)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b1 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b6)\n(clear b7)\n(clear b8)\n(on b1 b3)\n(on b2 b1)\n(on b6 b5)\n(on b7 b4)\n(on b8 b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b5)\n(clear b6)\n(clear b8)\n(on b1 b3)\n(on b2 b1)\n(on b6 b7)\n(on b7 b4)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(stack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b5)\n(clear b7)\n(clear b8)\n(on b1 b3)\n(on b5 b6)\n(on b7 b4)\n(on b8 b2)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b1)\n(on b2 b4)\n(on b3 b2)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b1 b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(holding b2)\n(on b3 b1)\n(on b4 b6)\n(on b6 b7)\n(on b7 b5)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(on b2 b3)\n(on b3 b1)\n(on b6 b7)\n(on b7 b5)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(unstack b6 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b2 b3)\n(on b3 b1)\n(on b7 b5)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b5 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(holding b3)\n(on b2 b6)\n(on b4 b7)\n(on b7 b5)\n(on-table b1)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b4 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b6)\n(on b2 b4)\n(on b4 b5)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(pickup b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b6)\n(clear b7)\n(on b4 b3)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(pickup b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(clear b5)\n(clear b6)\n(clear b7)\n(on b4 b2)\n(on b7 b4)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b5)\n(clear b6)\n(holding b7)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(putdown b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(clear b6)\n(on b3 b7)\n(on b4 b2)\n(on b6 b4)\n(on b7 b1)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b6)\n(holding b5)\n(on b3 b7)\n(on b4 b2)\n(on b6 b4)\n(on b7 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b5 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(on b1 b3)\n(on b2 b1)\n(on b3 b6)\n(on b4 b2)\n(on b5 b4)\n(on-table b6)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b5)\n(on b2 b3)\n(on b4 b1)\n(on-table b1)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(pickup b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(holding b3)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(stack b2 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b5)\n(clear b7)\n(on b1 b4)\n(on b3 b6)\n(on b7 b1)\n(on-table b2)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b7)\n(holding b6)\n(on b1 b4)\n(on b2 b3)\n(on b3 b5)\n(on b7 b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b6 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b7)\n(on b1 b2)\n(on b2 b4)\n(on b3 b6)\n(on b5 b3)\n(on b6 b1)\n(on b7 b5)\n(on-table b4)\n\nACTION:\n(unstack b1 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b7)\n(on b1 b2)\n(on b2 b4)\n(on b3 b6)\n(on b5 b3)\n(on b6 b1)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(putdown b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b5)\n(on b1 b4)\n(on b4 b2)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b5)\n(on b1 b4)\n(on b4 b2)\n(on b5 b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b6)\n(clear b7)\n(on b2 b4)\n(on b3 b5)\n(on b5 b2)\n(on b6 b8)\n(on b7 b3)\n(on b8 b1)\n(on-table b1)\n(on-table b4)\n\nACTION:\n(putdown b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b6)\n(clear b7)\n(clear b8)\n(on b2 b4)\n(on b3 b5)\n(on b5 b2)\n(on b6 b1)\n(on b7 b3)\n(on-table b1)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(stack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(clear b7)\n(holding b6)\n(on b1 b2)\n(on b4 b5)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(stack b6 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b5)\n(clear b6)\n(holding b4)\n(on b1 b2)\n(on b6 b7)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b6 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b5)\n(clear b7)\n(holding b6)\n(on b1 b3)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(stack b8 b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b1 b3)\n(on b6 b5)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b6 b5)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(on b1 b2)\n(on b2 b7)\n(on b3 b4)\n(on b4 b1)\n(on b5 b3)\n(on b6 b8)\n(on b7 b6)\n(on-table b8)\n\nACTION:\n(unstack b5 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(holding b5)\n(on b1 b2)\n(on b2 b7)\n(on b3 b4)\n(on b4 b1)\n(on b6 b8)\n(on b7 b6)\n(on-table b8)\n\nACTION:\n(unstack b4 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b5)\n(holding b3)\n(on b1 b2)\n(on b2 b7)\n(on b4 b1)\n(on b6 b8)\n(on b7 b6)\n(on-table b5)\n(on-table b8)\n\nACTION:\n(unstack b3 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(clear b6)\n(holding b7)\n(on b1 b3)\n(on b2 b5)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b7 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b6)\n(clear b7)\n(on b3 b1)\n(on b4 b2)\n(on b6 b8)\n(on b7 b5)\n(on b8 b3)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b6)\n(clear b7)\n(holding b4)\n(on b3 b1)\n(on b6 b8)\n(on b7 b5)\n(on b8 b3)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b4 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b6)\n(on b3 b1)\n(on b4 b7)\n(on b6 b8)\n(on b7 b5)\n(on b8 b3)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b6 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(on b2 b8)\n(on b3 b1)\n(on b4 b7)\n(on b6 b4)\n(on b7 b5)\n(on b8 b3)\n(on-table b1)\n(on-table b5)\n\nACTION:\n(unstack b2 b8)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b6)\n(clear b7)\n(on b3 b5)\n(on b5 b4)\n(on b6 b1)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(unstack b1 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b7)\n(on b1 b8)\n(on b2 b6)\n(on b4 b3)\n(on b5 b1)\n(on b6 b4)\n(on b7 b5)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(unstack b2 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b6)\n(on b1 b8)\n(on b2 b7)\n(on b4 b3)\n(on b5 b1)\n(on b7 b5)\n(on-table b3)\n(on-table b8)\n\nACTION:\n(stack b2 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b1 b8)\n(on b2 b7)\n(on b5 b1)\n(on b6 b2)\n(on b7 b5)\n(on-table b3)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(pickup b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b4)\n(clear b6)\n(holding b3)\n(on b1 b8)\n(on b2 b7)\n(on b5 b1)\n(on b6 b2)\n(on b7 b5)\n(on-table b4)\n(on-table b8)\n\nACTION:\n(stack b2 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(clear b6)\n(on b2 b5)\n(on b3 b2)\n(on b5 b8)\n(on b6 b1)\n(on b8 b7)\n(on-table b1)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(unstack b7 b8)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(holding b6)\n(on b2 b5)\n(on b3 b2)\n(on b5 b8)\n(on b8 b7)\n(on-table b1)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(unstack b7 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b3)\n(on b1 b6)\n(on b2 b5)\n(on b3 b2)\n(on b5 b8)\n(on b6 b4)\n(on b8 b7)\n(on-table b4)\n(on-table b7)\n\nACTION:\n(stack b3 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b7)\n(clear b8)\n(on b2 b6)\n(on b3 b4)\n(on b5 b1)\n(on b7 b5)\n(on b8 b3)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b6)\n(clear b7)\n(clear b8)\n(on b3 b4)\n(on b5 b1)\n(on b7 b2)\n(on b8 b3)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(stack b4 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b6)\n(clear b7)\n(holding b5)\n(on b3 b4)\n(on b6 b3)\n(on b7 b1)\n(on-table b1)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(putdown b5)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b6)\n(clear b7)\n(holding b2)\n(on b3 b4)\n(on b6 b5)\n(on b7 b1)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(putdown b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b6)\n(holding b3)\n(on b2 b7)\n(on b6 b5)\n(on b7 b1)\n(on-table b1)\n(on-table b4)\n(on-table b5)\n\nACTION:\n(stack b3 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b2 b7)\n(on b3 b2)\n(on b5 b3)\n(on b7 b1)\n(on-table b1)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(holding b2)\n(on b1 b4)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b1)\n(on b2 b3)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(on b1 b2)\n(on b3 b6)\n(on b4 b3)\n(on b5 b4)\n(on b6 b1)\n(on-table b2)\n\nACTION:\n(stack b3 b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(on b1 b2)\n(on b3 b6)\n(on b4 b3)\n(on b6 b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b4 b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b4)\n(on b1 b2)\n(on b3 b6)\n(on b4 b5)\n(on b6 b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(unstack b3 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b3)\n(clear b6)\n(on b1 b2)\n(on b3 b4)\n(on b4 b5)\n(on b6 b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(pickup b7)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(holding b1)\n(on b2 b3)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(stack b1 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b6)\n(holding b4)\n(on b1 b2)\n(on b3 b5)\n(on b6 b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b4 b7)\n(on b5 b6)\n(on b6 b1)\n(on b7 b5)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b6)\n(clear b7)\n(on b3 b4)\n(on b4 b2)\n(on b6 b5)\n(on b7 b3)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(pickup b1)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b6)\n(clear b7)\n(holding b1)\n(on b3 b4)\n(on b4 b2)\n(on b6 b5)\n(on b7 b3)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(stack b1 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(on b1 b7)\n(on b2 b5)\n(on b3 b2)\n(on b4 b3)\n(on b7 b6)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b1 b7)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b7)\n(on b1 b4)\n(on b2 b5)\n(on b3 b2)\n(on b4 b3)\n(on b7 b6)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(unstack b7 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b3)\n(on b4 b1)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(pickup b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b5)\n(holding b3)\n(on b4 b2)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(putdown b3)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b4 b5)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(pickup b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b3)\n(on b3 b4)\n(on b4 b5)\n(on-table b1)\n(on-table b2)\n(on-table b5)\n\nACTION:\n(pickup b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b3)\n(clear b4)\n(holding b2)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(putdown b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b4)\n(clear b7)\n(clear b8)\n(on b1 b6)\n(on b2 b3)\n(on b3 b5)\n(on b7 b1)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(pickup b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b3)\n(clear b4)\n(clear b8)\n(holding b2)\n(on b1 b6)\n(on b3 b5)\n(on b4 b7)\n(on b7 b1)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(pickup b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(on b1 b6)\n(on b2 b8)\n(on b3 b5)\n(on b4 b7)\n(on b7 b1)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(unstack b2 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b4)\n(clear b5)\n(holding b3)\n(on b1 b6)\n(on b2 b8)\n(on b4 b7)\n(on b7 b1)\n(on-table b5)\n(on-table b6)\n(on-table b8)\n\nACTION:\n(stack b3 b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b5)\n(on b3 b4)\n(on b4 b6)\n(on b5 b3)\n(on-table b1)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b3)\n(holding b5)\n(on b3 b4)\n(on b4 b6)\n(on-table b1)\n(on-table b2)\n(on-table b6)\n\nACTION:\n(unstack b4 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b2)\n(clear b3)\n(clear b4)\n(clear b5)\n(on b4 b6)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n(on-table b3)\n(on-table b6)\n\nACTION:\n(unstack b3 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b4)\n(clear b6)\n(holding b3)\n(on b4 b5)\n(on b5 b1)\n(on b6 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(pickup b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(holding b4)\n(on b3 b6)\n(on b5 b1)\n(on b6 b2)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(holding b3)\n(on b1 b4)\n(on b2 b1)\n(on b4 b5)\n(on b5 b6)\n(on-table b6)\n\nACTION:\n(putdown b1)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b4)\n(clear b5)\n(clear b6)\n(holding b2)\n(on b1 b3)\n(on-table b3)\n(on-table b4)\n(on-table b5)\n(on-table b6)\n\nACTION:\n(stack b2 b6)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b2)\n(clear b5)\n(on b1 b3)\n(on b2 b6)\n(on b5 b4)\n(on-table b3)\n(on-table b4)\n(on-table b6)\n\nACTION:\n(unstack b1 b4)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b3)\n(clear b5)\n(holding b4)\n(on b3 b2)\n(on b5 b1)\n(on-table b1)\n(on-table b2)\n\nACTION:\n(unstack b2 b3)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b2)\n(clear b7)\n(holding b5)\n(on b1 b3)\n(on b2 b4)\n(on b3 b6)\n(on b4 b8)\n(on b8 b1)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b5 b2)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b5)\n(clear b7)\n(on b1 b3)\n(on b2 b4)\n(on b3 b6)\n(on b4 b8)\n(on b5 b2)\n(on b8 b1)\n(on-table b6)\n(on-table b7)\n\nACTION:\n(stack b7 b6)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b4)\n(clear b5)\n(clear b6)\n(on b1 b2)\n(on b3 b1)\n(on b4 b3)\n(on b6 b7)\n(on-table b2)\n(on-table b5)\n(on-table b7)\n\nACTION:\n(stack b4 b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b6)\n(clear b7)\n(holding b5)\n(on b1 b2)\n(on b3 b1)\n(on b6 b4)\n(on b7 b3)\n(on-table b2)\n(on-table b4)\n\nACTION:\n(pickup b5)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(arm-empty)\n(clear b1)\n(clear b4)\n(on b1 b5)\n(on b2 b3)\n(on b4 b2)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(putdown b2)\n\nEND","completion":" no"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(holding b4)\n(on b1 b5)\n(on b2 b3)\n(on-table b3)\n(on-table b5)\n\nACTION:\n(putdown b4)\n\nEND","completion":" yes"}
+{"prompt":"STATE:\n(clear b1)\n(clear b2)\n(clear b4)\n(holding b5)\n(on b2 b3)\n(on-table b1)\n(on-table b3)\n(on-table b4)\n\nACTION:\n(unstack b5 b2)\n\nEND","completion":" no"}

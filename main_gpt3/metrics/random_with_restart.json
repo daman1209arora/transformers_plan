@@ -1,0 +1,152 @@
+[
+    {
+        "num_trajectories": 1,
+        "success": 32,
+        "goal not reached": 168,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 2,
+        "success": 45,
+        "goal not reached": 155,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 3,
+        "success": 54,
+        "goal not reached": 146,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 4,
+        "success": 63,
+        "goal not reached": 137,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 5,
+        "success": 51,
+        "goal not reached": 149,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 6,
+        "success": 69,
+        "goal not reached": 131,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 7,
+        "success": 70,
+        "goal not reached": 130,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 8,
+        "success": 77,
+        "goal not reached": 123,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 9,
+        "success": 77,
+        "goal not reached": 123,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 10,
+        "success": 78,
+        "goal not reached": 122,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 11,
+        "success": 86,
+        "goal not reached": 114,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 12,
+        "success": 82,
+        "goal not reached": 118,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 13,
+        "success": 95,
+        "goal not reached": 105,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 14,
+        "success": 91,
+        "goal not reached": 109,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 15,
+        "success": 86,
+        "goal not reached": 114,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 16,
+        "success": 92,
+        "goal not reached": 108,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 17,
+        "success": 95,
+        "goal not reached": 105,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 18,
+        "success": 101,
+        "goal not reached": 99,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 19,
+        "success": 102,
+        "goal not reached": 98,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 20,
+        "success": 95,
+        "goal not reached": 105,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 21,
+        "success": 102,
+        "goal not reached": 98,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 22,
+        "success": 103,
+        "goal not reached": 97,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 23,
+        "success": 100,
+        "goal not reached": 100,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 24,
+        "success": 103,
+        "goal not reached": 97,
+        "error in parsing pddl": 0
+    },
+    {
+        "num_trajectories": 25,
+        "success": 94,
+        "goal not reached": 106,
+        "error in parsing pddl": 0
+    }
+]
